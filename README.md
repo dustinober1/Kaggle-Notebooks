@@ -9,6 +9,7 @@
   - [Titanic Survival Prediction](#3-titanic-survival-prediction)
   - [Human vs AI Text Classification](#4-human-vs-ai-text-classification)
   - [Los Angeles Crime Data Analysis](#5-los-angeles-crime-data-analysis)
+  - [Predicting Road Accident Risk](#6-predicting-road-accident-risk)
 - [Technologies Used](#-technologies-used)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
@@ -235,6 +236,60 @@ An in-depth exploratory data analysis of crime incidents in Los Angeles from 202
 
 #### 🛠️ Technologies
 `Python` `Pandas` `NumPy` `Matplotlib` `Seaborn` `Plotly` `Geopandas` `Folium`
+
+---
+
+### 6. 🚗 Predicting Road Accident Risk
+
+**Kaggle Playground Series S5E10 - Regression Competition**
+
+[![Notebook](https://img.shields.io/badge/View-Notebook-blue?style=flat-square)](./Notebooks/Predicting%20Road%20Accident%20Risk.ipynb)
+[![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)]()
+
+#### 📝 Description
+A machine learning regression project to predict accident risk scores (0-1 scale) based on road conditions, environmental factors, and traffic characteristics. Developed as part of Kaggle's Playground Series competition with a target RMSE of ≤0.05.
+
+#### 🎯 Objectives
+- Predict continuous accident risk values between 0 and 1
+- Minimize Root Mean Squared Error (RMSE) to achieve competitive score
+- Implement advanced ensemble methods for robust predictions
+- Engineer meaningful features from road and environmental data
+
+#### 🔧 Key Features
+- **Feature Engineering**:
+  - Interaction features (speed × curvature)
+  - Polynomial features (speed², curvature²)
+  - High-risk combination flags
+  - Categorical encoding for road conditions, lighting, weather, time of day
+  
+- **Machine Learning Models**:
+  - Random Forest (baseline)
+  - XGBoost with hyperparameter tuning
+  - LightGBM with optimization
+  - CatBoost regression
+  - Ensemble averaging for final predictions
+
+- **Comprehensive Analysis**:
+  - Exploratory data analysis
+  - Feature importance analysis
+  - Correlation analysis with target variable
+  - Cross-validation for model selection
+
+#### 📊 Results & Outcomes
+- ✅ **Validation RMSE:** 0.0562 (approaching competitive threshold of 0.05)
+- ✅ **Dataset:** 517,754 training samples, 172,585 test samples
+- ✅ **Best Model:** Ensemble of XGBoost, LightGBM, and CatBoost
+- ✅ **Key Insights Found:**
+  - Road curvature (0.544) and speed limit (0.431) are strongest predictors
+  - Speed-curvature interaction is the most important feature
+  - Lighting conditions significantly impact accident risk
+  - Number of reported accidents has moderate correlation (0.214)
+- ✅ **Models Compared:** Random Forest (0.0597), XGBoost (0.0562), LightGBM (0.0562), CatBoost (0.0562)
+- ✅ **Feature Count:** 16 engineered features from 13 original features
+- ✅ **Submission Ready:** Generated predictions in required format (id, accident_risk)
+
+#### 🛠️ Technologies
+`Python` `Pandas` `NumPy` `Scikit-learn` `XGBoost` `LightGBM` `CatBoost` `Matplotlib` `Seaborn`
 
 ---
 
