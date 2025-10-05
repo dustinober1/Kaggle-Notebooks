@@ -349,15 +349,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
-
-**Dustin Ober**
-
-[![GitHub](https://img.shields.io/badge/GitHub-dustinober1-black?style=flat-square&logo=github)](https://github.com/dustinober1)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Profile-blue?style=flat-square&logo=kaggle)](https://www.kaggle.com/dustinober1)
-
----
-
 ## 🙏 Acknowledgments
 
 - **Kaggle Community** - For datasets and inspiration
@@ -370,7 +361,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 ### ⭐ If you find these projects helpful, please consider giving this repository a star!
-
-**Made with ❤️ and ☕ by Dustin Ober**
 
 </div>
