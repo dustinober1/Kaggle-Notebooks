@@ -19,9 +19,10 @@
 
 - [Overview](#-overview)
 - [Projects](#-projects)
-  - [Titanic Survival Prediction](#1-titanic-survival-prediction)
-  - [Human vs AI Text Classification](#2-human-vs-ai-text-classification)
-  - [Los Angeles Crime Data Analysis](#3-los-angeles-crime-data-analysis)
+  - [News Category Dataset - Complete Analysis](#1-news-category-dataset---complete-analysis)
+  - [Titanic Survival Prediction](#2-titanic-survival-prediction)
+  - [Human vs AI Text Classification](#3-human-vs-ai-text-classification)
+  - [Los Angeles Crime Data Analysis](#4-los-angeles-crime-data-analysis)
 - [Technologies Used](#-technologies-used)
 - [Getting Started](#-getting-started)
 - [Project Structure](#-project-structure)
@@ -47,7 +48,35 @@ This repository contains a curated collection of **data science and machine lear
 
 ## 📚 Projects
 
-### 1. 🚢 Titanic Survival Prediction
+### 1. � News Category Dataset - Complete Analysis
+
+**Transfer Learning for News Categorization**
+
+[![Notebook](https://img.shields.io/badge/View-Notebook-blue?style=flat-square)](./Notebooks/News%20Category%20Dataset.ipynb)
+[![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)]()
+
+#### 📝 Description
+Comprehensive analysis of 189K+ HuffPost news articles using transfer learning. Implements three transformer models (DistilBERT, RoBERTa, BERT) to categorize news articles and analyze writing styles across categories.
+
+#### 🎯 Key Results
+- **Best Accuracy:** 86.0% (RoBERTa)
+- **Models:** DistilBERT (85.5%), RoBERTa (86.0%), BERT (85.9%)
+- **Dataset:** 189,426 articles across 10 categories
+- **GPU Training:** Tesla P100 16GB
+
+#### 🔧 Features
+- Complete EDA with temporal and categorical analysis
+- Writing style analysis across news categories
+- Transfer learning with 3 transformer models
+- Free text classification demonstration
+- Production-ready model evaluation
+
+#### 🛠️ Technologies
+`Python` `PyTorch` `Transformers` `DistilBERT` `RoBERTa` `BERT` `NLP` `GPU Computing`
+
+---
+
+### 2. �🚢 Titanic Survival Prediction
 
 **Advanced Machine Learning Analysis**
 
@@ -97,7 +126,7 @@ A comprehensive analysis of the classic Titanic dataset with a goal of achieving
 
 ---
 
-### 2. 🤖 Human vs AI Text Classification
+### 3. 🤖 Human vs AI Text Classification
 
 **DistilBERT-based Text Classification**
 
@@ -143,7 +172,7 @@ A comparative analysis of DistilBERT model variants (cased vs uncased) for detec
 
 ---
 
-### 3. 🚔 Los Angeles Crime Data Analysis
+### 4. 🚔 Los Angeles Crime Data Analysis
 
 **Comprehensive Exploratory Data Analysis**
 
