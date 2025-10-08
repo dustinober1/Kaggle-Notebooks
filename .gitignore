@@ -1,4 +1,4 @@
 /playground-series-s5e10/
 /.venv/
 *.csv
-/catboost_info/
+Notebooks/catboost_info/
