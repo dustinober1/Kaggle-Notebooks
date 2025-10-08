@@ -1,4 +1,8 @@
 /playground-series-s5e10/
 /.venv/
 *.csv
+<<<<<<< HEAD
 Notebooks/catboost_info/
+=======
+/Notebooks/catboost_info/
+>>>>>>> 547593810b87e63f9a0eff66e28eeeecd5f09682
